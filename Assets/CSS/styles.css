@@ -309,3 +309,80 @@ img {
 .home-scroll-arrow {
   font-size: 1.25rem;
 }
+
+/*==================== BUTTONS ====================*/
+.button {
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #fff;
+  padding: 0.6rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  font-weight: var(--font-medium);
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+}
+
+.button:hover {
+  background-color: var(--first-color-alt);
+}
+
+.button-icon {
+  font-size: 1.25rem;
+  margin-left: var(--mb-0-5);
+  transition: 0.3s;
+}
+
+.button--white {
+  background-color: #fff;
+  color: var(--first-color);
+}
+
+.button--white:hover {
+  color: #fff;
+}
+
+.button--flex {
+  display: inline-flex;
+  align-items: center;
+}
+
+.button-small {
+  padding: 7.5rem 1rem;
+}
+
+.button--link {
+  padding: 0;
+  background-color: transparent;
+  color: var(--first-color);
+}
+
+.button--link:hover {
+  background-color: transparent;
+  color: var(--first-color-alt);
+}
+
+.counters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--first-color);
+  border-radius: 0.5rem;
+  padding: 1rem 3rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  max-width: 100%;
+}
+.counter {
+  color: #fff;
+}
+
+.number {
+  font-weight: var(--font-medium);
+  align-items: center;
+}
+
+.text {
+  font-weight: var(--font-medium);
+  font-size: 0.5rem;
+  text-align: center;
+}
