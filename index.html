@@ -10,45 +10,46 @@
       href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
     />
     <title>FOOD JX</title>
-    <link rel="stylesheet" href="./Assets/styles.css" />
+    <link rel="stylesheet" href="./Assets/CSS/styles.css" />
   </head>
   <body>
     <!--==================== HEADER ====================-->
-    <header class="header">
+    <header class="header" id="header">
       <nav class="nav container">
         <a href="#" class="nav-logo">FOODJX</a>
 
-        <div class="nav-menu">
+        <div class="nav-menu" id="nav__menu">
           <ul class="nav-list grid">
             <li class="nav-item">
-              <a href="#home" class="nav-link" active-link>
+              <a href="#home" class="nav-link active-link">
                 <i class="uil uil-estate nav-icon"></i> Home</a
               >
             </li>
             <li class="nav-item">
-              <a href="#About Us" class="nav-link">
+              <a href="#about Us" class="nav-link">
                 <i class="uil uil-user nav-icon"></i> About Us</a
               >
             </li>
             <li class="nav-item">
-              <a href="#Explore Food" class="nav-link">
-                <i class="uil uil-restaurant"></i> Explore Food</a
+              <a href="#explore Food" class="nav-link">
+                <i class="uil uil-restaurant nav-icon"></i> Explore Food</a
               >
             </li>
             <li class="nav-item">
-              <a href="#Reviews" class="nav-link">
-                <i class="uil uil-star-half-alt"></i> Reviews</a
+              <a href="#reviews" class="nav-link">
+                <i class="uil uil-star-half-alt nav-icon"></i> Reviews</a
               >
             </li>
             <li class="nav-item">
-              <a href="#FAQ" class="nav-link">
+              <a href="#faq" class="nav-link">
                 <i class="uil uil-question nav-icon"></i> FAQ</a
               >
             </li>
           </ul>
+          <i class="uil uil-times nav-close" id="nav__close"></i>
         </div>
         <div class="nav-btns">
-          1800 768 123
+          <p>1800 768 123</p>
 
           <div class="nav-toggle" id="nav__toggle">
             <i class="uil uil-apps"></i>
@@ -57,6 +58,36 @@
       </nav>
     </header>
 
-    <script src="./Assets/script.js"></script>
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home" id="home">
+        <div class="home-container container grid">
+          <div class="home-content grid">
+            <div class="home-img">
+              <img src="./Assets/img/food1.png" alt="" />
+            </div>
+            <div class="home-data">
+              <h1 class="home-title">
+                Order food from the favourite restaurant near you.
+              </h1>
+              <p class="home-description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Voluptates laboriosam impedit voluptatum doloremque vel id?
+                Fugiat voluptatem tempore inventore laboriosam!
+              </p>
+
+              <a href="#order now" class="button button--flex"
+                >Order Now <i class="uil uil-shopping-basket button-icon"></i
+              ></a>
+              <a href="#learn more" class="button button--flex"
+                >Learn More <i class="uil uil-angle-right button-icon"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./Assets/JS/script.js"></script>
   </body>
 </html>
