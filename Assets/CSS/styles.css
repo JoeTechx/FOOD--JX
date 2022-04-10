@@ -91,6 +91,7 @@ h3,
 h4 {
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
+  font-family: var(--body-font-lg);
 }
 
 ul {
@@ -363,8 +364,9 @@ img {
 
 .counters {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
+  gap: 1.7rem;
   background-color: var(--first-color);
   border-radius: 0.5rem;
   padding: 1rem 3rem;
@@ -385,4 +387,51 @@ img {
   font-weight: var(--font-medium);
   font-size: 0.5rem;
   text-align: center;
+}
+
+/*==================== ABOUT ====================*/
+.about-img {
+  width: 200px;
+  margin: 2rem 7rem 3rem;
+  border-radius: 0.5rem;
+  justify-self: center;
+  align-self: center;
+}
+
+.about-title {
+  text-align: center;
+  margin-bottom: var(--mb-2-5);
+}
+
+.about-description {
+  text-align: center;
+  margin-bottom: var(--mb-2-5);
+}
+
+.about-button {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  margin: 2rem;
+  margin-left: 0;
+}
+
+.about-list {
+  row-gap: 1.25rem;
+}
+
+.about-item {
+  display: flex;
+  gap: 0.35rem;
+}
+
+.about-icon {
+  font-size: 1.35rem;
+  color: var(--first-color);
+}
+
+.small--img {
+  width: 5rem;
 }
