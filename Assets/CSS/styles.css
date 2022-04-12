@@ -590,6 +590,15 @@ img {
 }
 
 .testimonial-dot {
-  background-color: red;
+  height: 0.5rem;
+  width: 0.5rem;
+  position: relative;
+  bottom: 2.89rem;
+  background-color: #bbb;
   border-radius: 50%;
+  display: inline-block;
+}
+
+.active-dot {
+  background-color: #fff;
 }
