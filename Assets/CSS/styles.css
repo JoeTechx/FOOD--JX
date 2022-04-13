@@ -51,6 +51,9 @@
   --z-tooltip: 10;
   --z-fixed: 100;
   --z-modal: 1000;
+
+  /* ===== TRANSITION ===== */
+  --transition: all 0.3s linear;
 }
 
 /* font size for large device */
@@ -601,4 +604,77 @@ img {
 
 .active-dot {
   background-color: #fff;
+}
+/* ============= questions ============== */
+.question-container {
+  max-width: 620px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.question-content {
+  background-color: var(--container-color);
+  border-radius: 0.5rem;
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+  margin-bottom: 2rem;
+  padding: 1.5rem 1.5rem 0 1.5rem;
+}
+
+.question-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: capitalize;
+  padding-bottom: 1rem;
+}
+
+.question-title h4 {
+  margin-bottom: 0;
+  letter-spacing: 0.123rem;
+  color: var(--text-color);
+}
+
+.line {
+  color: var(--first-color-alt);
+  margin-right: 0.2rem;
+}
+
+.question-btn {
+  font-size: 2.5rem;
+  position: relative;
+  bottom: 0.8rem;
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  color: var(--first-color-alt);
+}
+
+.question-text {
+  padding: 1rem 0 1.5rem 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.question-text p {
+  margin-bottom: 0;
+}
+
+/* ===== hide text ===== */
+.question-text {
+  display: none;
+}
+
+.show-text .question-text {
+  display: block;
+}
+
+.angle-up-icon {
+  display: none;
+}
+.show-text .angle-up-icon {
+  display: inline;
+}
+.show-text .angle-down-icon {
+  display: none;
 }
