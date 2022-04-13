@@ -20,17 +20,21 @@ if (navClose) {
 }
 
 //-------------- QUESTION SHOW HIDDEN---------------//
-
 const questions = document.querySelectorAll(".question-content");
+
 questions.forEach(function (question) {
-  // console.log(question);
+  //  console.log(question);
   const btn = question.querySelector(".question-btn");
   // console.log(btn);
-  btn.addEventListener("click", function () {
+  btn.addEventListener("click", () => {
+    questions.forEach(function (item) {
+      if (item !== question) {
+        item.classList.remove("show-text");
+      }
+    });
     question.classList.toggle("show-text");
   });
 });
-
 // const btns = document.querySelectorAll(".question-btn");
 
 // btns.forEach(function (btn) {

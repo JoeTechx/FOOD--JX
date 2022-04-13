@@ -470,8 +470,8 @@ img {
 
 .story-data {
   position: absolute;
-  top: 127rem;
-  left: 7rem;
+  top: 126rem;
+  left: 8.5rem;
 }
 
 .story-title {
@@ -489,8 +489,8 @@ img {
 
 .story-watch a {
   position: relative;
-  left: 12.9rem;
-  bottom: 2.5rem;
+  left: 14rem;
+  bottom: 3rem;
   margin-top: 0.4rem;
   font-size: 0.39rem;
   color: #fff;
@@ -570,7 +570,7 @@ img {
 .testimonial-title {
   text-align: center;
   font-size: 0.8rem;
-  padding-bottom: 1rem;
+  padding: 1rem;
 }
 
 .testimonial-description {
