@@ -777,3 +777,39 @@ img {
 .copywrite-copy {
   font-size: 0.7rem;
 }
+/*==================== FOOTER ====================*/
+.footer {
+  padding: 2rem;
+}
+
+.footer-container {
+  row-gap: 2rem;
+}
+
+.footer-bg {
+  background-color: var(--first-color);
+  padding: 2rem 0 3rem;
+}
+
+.footer-title {
+  font-size: var(--h1-font-size);
+  font-family: var(--body-font);
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+
+.footer-hire-me {
+  display: flex;
+  align-items: center;
+  column-gap: 3rem;
+}
+
+.footer-title,
+.footer-link,
+.hire-me-link {
+  color: #fff;
+}
