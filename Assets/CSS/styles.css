@@ -678,3 +678,25 @@ img {
 .show-text .angle-down-icon {
   display: none;
 }
+
+/* ============= DIVIDED ============== */
+.divided {
+  background-color: var(--title-color);
+  height: 8rem;
+}
+
+.divided-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  bottom: 1rem;
+}
+
+.divided-title {
+  color: var(--container-color);
+}
+
+.divided-button {
+  font-size: 0.9rem;
+}
