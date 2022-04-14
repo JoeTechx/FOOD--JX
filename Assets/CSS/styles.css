@@ -750,10 +750,14 @@ img {
 
 /* ============= COPY WRITE ============== */
 .copywrite {
-  background-color: var(--first-color-second);
-  color: #fff;
+  padding: 2rem;
 }
 
+.copywrite-bg {
+  background-color: var(--first-color-second);
+  color: #fff;
+  padding: 2rem 0 3rem;
+}
 .copywrite-content {
   text-align: center;
 }
@@ -812,4 +816,28 @@ img {
 .footer-link,
 .hire-me-link {
   color: #fff;
+}
+
+/*========== SCROLL BAR ==========*/
+::-webkit-scrollbar {
+  width: 0.6rem;
+  background-color: var(--scroll-bar-color);
+  border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--scroll-thumb-color);
+  border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--text-color-light);
+}
+/*==================== MEDIA QUERIES ====================*/
+/* For small devices */
+@media screen and (max-width: 350px) {
+  .container {
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
 }
