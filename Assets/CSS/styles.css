@@ -364,18 +364,25 @@ img {
   background-color: transparent;
   color: var(--first-color-alt);
 }
-
+/* ======= COUNTER ======= */
 .counters {
+  padding: 2rem;
+  width: 36.5rem;
+}
+.counter-bg {
+  background-color: var(--first-color);
+  padding: 2rem 0 3rem;
+}
+
+.counters-content {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   gap: 1.7rem;
-  background-color: var(--first-color);
   border-radius: 0.5rem;
   padding: 1rem 3rem;
   margin: 0.5rem;
   border-radius: 0.5rem;
-  max-width: 100%;
 }
 .counter {
   color: #fff;
@@ -681,8 +688,10 @@ img {
 
 /* ============= DIVIDED ============== */
 .divided {
+  padding: 2rem;
+}
+.divided-bg {
   background-color: var(--title-color);
-  height: 8rem;
 }
 
 .divided-content {
@@ -839,5 +848,142 @@ img {
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
+  }
+
+  .nav-menu {
+    padding: 2rem 0.25em 1rem;
+  }
+  .nav-list {
+    column-gap: 0;
+  }
+  .home-content {
+    grid-template-columns: 0.25fr 2fr;
+    position: relative;
+    left: 5rem;
+  }
+  .home-social {
+    padding-right: 1.5rem;
+  }
+  .home-img {
+    width: 200px;
+  }
+  .home-data {
+    text-align: center;
+  }
+
+  .home-title {
+    font-size: 1.77rem;
+  }
+  .home-description {
+    font-size: 1.2rem;
+    text-align: left;
+  }
+  .home-btn {
+    display: flex;
+    gap: 1rem;
+  }
+  .button-icon {
+    font-size: 1.2rem;
+    margin-left: var(--mb-0-5);
+    transition: 0.3s;
+  }
+
+  .counters {
+    padding: 2rem;
+    width: 29rem;
+  }
+
+  .about-container {
+    column-gap: 5rem;
+    width: 2px;
+    align-items: center;
+    position: relative;
+    left: 12rem;
+  }
+  .about-1 {
+    text-align: center;
+  }
+  .about-title {
+    font-size: 1rem;
+  }
+  .about-description {
+    font-size: 0.7rem;
+  }
+  .about-img {
+    width: 210px;
+  }
+
+  .about-2 {
+    text-align: center;
+  }
+  .about-data-2 {
+    position: relative;
+    top: 1rem;
+    left: 1.2rem;
+  }
+
+  .about-img-2 {
+    position: relative;
+    right: 1rem;
+    top: 6rem;
+  }
+
+  .small--img {
+    display: none;
+  }
+
+  .story {
+    width: 26.5rem;
+  }
+  .story-data {
+    text-align: center;
+  }
+  .story-title {
+    font-size: 0.6rem;
+    position: relative;
+    top: 3.5rem;
+  }
+  .story-description {
+    position: relative;
+    top: 3.5rem;
+  }
+  .story-watch {
+    position: relative;
+    right: 1.5rem;
+  }
+
+  .explore-food {
+    text-align: center;
+    position: relative;
+    left: 4.5rem;
+  }
+
+  .testimonial {
+    padding: 2rem;
+  }
+  .testimonial-bg {
+    width: 25rem;
+  }
+  .question {
+    text-align: center;
+    position: relative;
+    left: 4.5rem;
+  }
+  .divided-bg {
+    width: 25rem;
+  }
+  .divided-button {
+    width: 15rem;
+  }
+
+  .divided-content {
+    padding: 1rem;
+  }
+
+  .newsletter {
+    padding: 1.3rem;
+  }
+  .divided-button-2 {
+    padding-right: 1rem;
   }
 }
