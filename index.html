@@ -15,11 +15,17 @@
   <body>
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
-      <nav class="nav container">
-        <a href="#" class="nav-logo">FOODJX</a>
-
-        <div class="nav-menu" id="nav__menu">
-          <ul class="nav-list grid">
+      <nav>
+        <div class="nav-center">
+          <!-- nav header  -->
+          <div class="nav-header">
+            <a href="#" class="nav-logo">FOODJX</a>
+            <button class="nav-toggle">
+              <i class="uil uil-apps"></i>
+            </button>
+          </div>
+          <!-- links -->
+          <ul class="links">
             <li class="nav-item">
               <a href="#home" class="nav-link active-link">
                 <i class="uil uil-estate nav-icon"></i> Home</a
@@ -46,18 +52,12 @@
               >
             </li>
           </ul>
-          <i class="uil uil-times nav-close" id="nav__close"></i>
-        </div>
-        <div class="nav-btns">
-          <p class="button">1800 768 123</p>
-
-          <div class="nav-toggle" id="nav__toggle">
-            <i class="uil uil-apps"></i>
+          <div class="social-icons">
+            <p class="button button--flex num-btns">1800 768 123</p>
           </div>
         </div>
       </nav>
     </header>
-
     <!--==================== MAIN ====================-->
     <main class="main">
       <!--==================== HOME ====================-->
@@ -207,7 +207,7 @@
           </div>
         </div>
       </section>
-      <div class="story section container">
+      <div class="story section container" id="story">
         <img src="./Assets/img/food8.png" alt="" />
         <div class="story-data">
           <h3 class="story-title">
@@ -228,7 +228,7 @@
         </div>
       </div>
       <!-- ============ explore-food =========== -->
-      <section class="explore-food section">
+      <section class="explore-food section" id="explore-food">
         <h2 class="section-title">Explore Our Foods</h2>
         <span class="section-subtitle">Choose your favorite</span>
         <div class="product-container container grid">
@@ -305,7 +305,7 @@
         </div>
       </section>
       <!-- ======== TESTIMONIAL ============== -->
-      <section class="testimonial section">
+      <section class="testimonial section" id="testimonial">
         <div class="testimonial-bg">
           <h3 class="section-title title">Testimonial</h3>
           <div class="section-subtitle sub">My Customer Says</div>
@@ -440,7 +440,7 @@
           </article>
         </div>
       </section>
-      <section class="divided section">
+      <section class="divided section" id="divided">
         <div class="divided-bg">
           <div class="divided-content container grid">
             <h4 class="divided-title">
@@ -454,7 +454,7 @@
           </div>
         </div>
       </section>
-      <section class="newsletter section">
+      <section class="newsletter section" id="newsletter">
         <div class="newsletter-container container grid">
           <div class="newsletter-content grid">
             <h1 class="newsletter-title">
@@ -479,7 +479,7 @@
           </form>
         </div>
       </section>
-      <section class="copywrite section">
+      <section class="copywrite section" id="coypwrite">
         <div class="copywrite-bg">
           <div class="copywrite-content grid">
             <div class="copywrite-menu">
@@ -555,6 +555,11 @@
         </div>
       </div>
     </footer>
+
+    <!----------------------------------- SCROLL TOP --------------------------------------->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup-icon"></i>
+    </a>
     <script src="./Assets/JS/script.js"></script>
   </body>
 </html>
