@@ -183,18 +183,22 @@ nav {
   transform: rotate(90deg);
 }
 .nav-logo {
-  color: var(--first-color);
+  color: var(--title-color);
   font-weight: var(--font-semi-bold);
   height: 40px;
   font-size: var(--h3-font-size);
   position: relative;
   top: 0.5rem;
 }
+
+.jx-logo {
+  color: var(--first-color-second);
+}
 .links a {
   color: var(--first-color);
-  font-size: 1rem;
+  font-size: var(--smaller-font-size);
   text-transform: capitalize;
-  letter-spacing: var(--spacing);
+
   display: block;
   padding: 0.5rem 1rem;
   transition: var(--transition);
@@ -217,11 +221,11 @@ nav {
 @media screen and (min-width: 800px) {
   .nav-center {
     max-width: 170rem;
-    margin: 0 auto;
+    margin: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 2rem;
   }
   .nav-header {
     padding: 0;
@@ -234,8 +238,8 @@ nav {
     display: flex;
   }
   .links a {
-    padding: 0;
-    margin: 0 0.5rem;
+    padding-left: 1rem;
+    margin: 0.5rem;
   }
   .links a:hover {
     padding: 0;
@@ -248,9 +252,6 @@ nav {
     margin: 0 0.5rem;
     color: #fff;
     transition: var(--transition);
-  }
-  .social-icons p:hover {
-    color: var(--clr-primary-7);
   }
 }
 /* Active Link */
@@ -1039,7 +1040,7 @@ nav {
   .about-description {
     position: relative;
     bottom: 2rem;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     text-align: left;
   }
   .about-button-1 {
@@ -1084,22 +1085,23 @@ nav {
   }
   .about-title-2 {
     text-align: left;
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   .about-description-2 {
     position: relative;
     top: 0.2rem;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     text-align: left;
   }
   .about-menu {
     position: relative;
     top: 1rem;
-    font-size: 0.7em;
+    font-size: 0.9em;
   }
 
   .about-icon {
-    font-size: 0.8rem;
+    font-weight: 600;
+    font-size: 1.5rem;
   }
   .about-button-2 {
     font-size: 1rem;
@@ -1148,5 +1150,341 @@ nav {
   h3,
   h4 {
     line-height: 1;
+  }
+}
+@media screen and (max-width: 799px) {
+  .home-content {
+    width: 45rem;
+  }
+  .about-1 {
+    width: 45rem;
+  }
+  .about-2 {
+    width: 45rem;
+  }
+  .story {
+    width: 50rem;
+  }
+  .story-data {
+    width: 44rem;
+  }
+  .story-watch {
+    width: 44rem;
+    position: relative;
+    right: 2rem;
+  }
+  .section-title,
+  .section-subtitle {
+    position: relative;
+    left: 3rem;
+  }
+  .testimonial {
+    width: 49.4rem;
+    text-align: center;
+  }
+  .testimonial-img {
+    width: 4rem;
+    position: relative;
+    left: 0;
+  }
+  .title,
+  .sub {
+    position: relative;
+    left: 0;
+  }
+  .testimonial-title {
+    position: relative;
+    left: 6rem;
+  }
+  .question-container {
+    width: 35rem;
+    position: relative;
+    left: 2.5rem;
+  }
+  .divided-bg,
+  .copywrite-bg {
+    width: 49.4rem;
+  }
+  .divided-content {
+    width: 50rem;
+  }
+  .footer-bg {
+    width: 47.7rem;
+  }
+}
+@media screen and (max-width: 770px) {
+  .newsletter-form {
+    width: 47rem;
+  }
+}
+@media screen and (max-width: 648px) {
+  .main {
+    width: 45rem;
+  }
+  .home-content {
+    width: 45rem;
+  }
+  .home-img {
+    order: 1;
+    justify-self: center;
+    width: 350px;
+    position: relative;
+    left: 0.2rem;
+  }
+  .home-data {
+    width: 18rem;
+  }
+  .home-title {
+    font-size: var(--h1-font-size);
+  }
+
+  .home-description {
+    margin-bottom: var(--mb-2);
+  }
+
+  .about-1 {
+    width: 45rem;
+  }
+  .about-2 {
+    width: 45rem;
+  }
+  .story {
+    width: 47rem;
+  }
+  .story-data {
+    width: 44rem;
+  }
+  .story-watch {
+    width: 44rem;
+    position: relative;
+    right: 2rem;
+  }
+  .section-title,
+  .section-subtitle {
+    position: relative;
+    left: 3rem;
+  }
+  .testimonial {
+    width: 47rem;
+    text-align: center;
+  }
+  .testimonial-img {
+    width: 4rem;
+    position: relative;
+    left: 0;
+  }
+  .title,
+  .sub {
+    position: relative;
+    left: 3rem;
+  }
+  .testimonial-title {
+    position: relative;
+    left: 5rem;
+  }
+  .question-container {
+    width: 35rem;
+    position: relative;
+    left: 2.5rem;
+  }
+  .divided-bg {
+    width: 47rem;
+  }
+  .divided-content {
+    width: 50rem;
+  }
+  .newsletter-form {
+    width: 47rem;
+  }
+  .copywrite-bg {
+    width: 47rem;
+  }
+  .footer-bg {
+    width: 45rem;
+  }
+}
+@media screen and (max-width: 350px) {
+  .container {
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
+  .home-content {
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    left: 10rem;
+  }
+
+  .home-img {
+    position: relative;
+    left: 0.4rem;
+    order: -1;
+    justify-self: center;
+    width: 23rem;
+  }
+  .home-social {
+    padding: 0;
+    position: relative;
+    right: 37rem;
+    top: 0;
+  }
+  .home-scroll {
+    display: none;
+  }
+  .home-data {
+    width: 40rem;
+    font-size: 2rem;
+    text-align: left;
+  }
+  .home-title {
+    font-size: 3rem;
+  }
+  .home-btn {
+    font-size: var(--h1-font-size);
+  }
+  .counter-bg {
+    width: 50rem;
+  }
+  .about-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    left: 5.5rem;
+  }
+
+  .about-img-1 {
+    width: 60%;
+    height: 19rem;
+    position: relative;
+    left: 3rem;
+    top: 1rem;
+  }
+  .about-data {
+    padding: 1rem;
+    position: relative;
+    right: 0.5rem;
+    top: 1rem;
+  }
+  .about-title {
+    width: 30rem;
+    text-align: left;
+    font-size: 2.5rem;
+  }
+  .about-description {
+    width: 31rem;
+    position: relative;
+    bottom: 2rem;
+    font-size: 1.8rem;
+    text-align: left;
+  }
+  .about-button-1 {
+    font-size: 2rem;
+    position: relative;
+    bottom: 3rem;
+  }
+  .about-2 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    position: relative;
+    left: 5.9rem;
+  }
+
+  .about-food-img,
+  .about-img {
+    width: 80%;
+    height: 20rem;
+    position: relative;
+    left: 1rem;
+    top: 0;
+  }
+
+  .small--img {
+    display: none;
+  }
+  .about-data-2 {
+    padding: 1.4rem;
+    position: relative;
+    right: 0.5rem;
+    top: 2rem;
+  }
+  .about-title-2 {
+    width: 30rem;
+    position: relative;
+    left: 1rem;
+    text-align: left;
+    font-size: 2.5rem;
+  }
+  .about-description-2 {
+    width: 35rem;
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+    font-size: 1.8rem;
+    text-align: left;
+  }
+  .about-menu {
+    position: relative;
+    top: 3rem;
+    left: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .about--icon {
+    font-size: 2.7rem;
+  }
+  .about-button-2 {
+    font-size: 2rem;
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+  }
+  .story {
+    position: relative;
+    left: 2.5rem;
+  }
+  .product-wrapper {
+    position: relative;
+    left: 2.5rem;
+  }
+  .product-img {
+    width: 16rem;
+  }
+  .product-title {
+    font-size: var(--h1-font-size);
+  }
+  .product-description {
+    font-size: 1.1rem;
+  }
+  .product-price,
+  .product-price-cancel {
+    font-size: 1.5rem;
+  }
+
+  .product-button {
+    display: flex;
+    align-items: center;
+  }
+
+  .testimonial,
+  .divided,
+  .copywrite,
+  .footer {
+    position: relative;
+    left: 3.5rem;
+  }
+  .title {
+    font-size: var(--h1-font-size);
+  }
+  .sub {
+    font-size: var(--h4-font-size);
+  }
+  .testimonial-title,
+  .testimonial-description {
+    font-size: var(--normal-font-size);
+  }
+  .question-container {
+    position: relative;
+    left: 7rem;
   }
 }
