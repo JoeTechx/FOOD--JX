@@ -25,6 +25,7 @@
 
   /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ...*/
   --big-font-size: 2rem;
+  --bigger-font-size: 3rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1.125rem;
@@ -275,7 +276,7 @@ nav {
 
 /*==================== HOME ====================*/
 .home-container {
-  row-gap: 5rem;
+  row-gap: 3rem;
 }
 
 .home-content {
@@ -294,25 +295,28 @@ nav {
 }
 
 .home-social-icon {
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   color: var(--first-color);
 }
 
 .home-img {
-  width: 300px;
+  width: 502px;
   order: 1;
   justify-self: center;
 }
 
 .home-data {
   grid-column: initial;
+  padding-left: 5rem;
 }
 
 .home-title {
-  font-size: var(--h1-font-size);
+  font-size: 48px;
 }
 
 .home-description {
+  font-size: var(--normal-font-size);
+  line-height: 28px;
   margin-bottom: var(--mb-2);
 }
 
@@ -396,12 +400,10 @@ nav {
 }
 /* ======= COUNTER ======= */
 .counters {
-  padding: 2rem;
-  width: 50rem;
-}
-.counter-bg {
+  /* padding: 0.7rem; */
   background-color: var(--first-color);
-  padding: 2rem 0 3rem;
+  padding: 1rem;
+  width: 1400px;
 }
 
 .counters-content {
