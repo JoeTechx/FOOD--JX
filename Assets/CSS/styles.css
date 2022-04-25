@@ -316,7 +316,7 @@ nav {
 
 .home-description {
   font-size: var(--normal-font-size);
-  line-height: 28px;
+  line-height: 1.75rem;
   margin-bottom: var(--mb-2);
 }
 
@@ -403,31 +403,32 @@ nav {
   /* padding: 0.7rem; */
   background-color: var(--first-color);
   padding: 1rem;
-  width: 1400px;
+  width: 99.3rem;
 }
 
 .counters-content {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  gap: 1.7rem;
-  border-radius: 0.5rem;
+  gap: 1rem;
   padding: 1rem 3rem;
   margin: 0.5rem;
-  border-radius: 0.5rem;
 }
 .counter {
   color: #fff;
 }
 
 .number {
-  font-weight: var(--font-medium);
+  font-weight: var(--font-semi-bold);
+  font-size: var(--h1-font-size);
   align-items: center;
 }
 
 .text {
-  font-weight: var(--font-medium);
-  font-size: 0.5rem;
+  font-weight: var(--font-semi-bold);
+  font-size: 0.8rem;
+  line-height: 0.813rem;
+  letter-spacing: 0.15rem;
   text-align: center;
 }
 
@@ -440,28 +441,36 @@ nav {
 .about-1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  padding-left: 6rem;
 }
 .about-img-1 {
-  width: 100%;
-  height: 17rem;
+  width: 40.8125rem;
+  height: 27.208125rem;
   position: relative;
   left: 1rem;
   top: 2rem;
 }
 .about-data {
-  padding: 1rem;
+  width: 26rem;
+  height: 9.125rem;
+  padding-left: 0.1rem;
   position: relative;
-  left: 2rem;
-  top: 4rem;
+  left: 4rem;
+  top: 6.5rem;
 }
-.about-title {
+.about-title,
+.about-title-2 {
   text-align: left;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  font-weight: var(--font-semi-bold);
+  line-height: 2.5rem;
 }
-.about-description {
+.about-description,
+.about-description-2 {
   position: relative;
   top: 0.5rem;
-  font-size: 0.7rem;
+  font-size: 0.824rem;
+  line-height: 1.7rem;
   text-align: left;
 }
 .about-button-1 {
@@ -469,56 +478,50 @@ nav {
   position: relative;
   top: 0.8rem;
 }
-.about-img {
-  width: 200px;
-  margin: 2rem 7rem 1rem;
-  border-radius: 0.5rem;
-  justify-self: center;
-  align-self: center;
-}
 
 .about-2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  padding-right: 3rem;
+  padding-top: 3rem;
 }
 .about-data-2 {
-  padding: 1.4rem;
+  width: 26rem;
+  height: 9.125rem;
+  padding-left: 0.1rem;
   position: relative;
-  right: 0.5rem;
-  top: 5rem;
+  left: 7rem;
+  top: 10rem;
 }
 .about-food-img {
-  width: 100%;
-  height: 18rem;
+  width: 40.625rem;
+  height: 40.625rem;
   position: relative;
-  left: 0.2rem;
+  left: 1rem;
   top: 2rem;
 }
 .about-img {
-  width: 100%;
-  height: 25rem;
+  width: 40.625rem;
+  height: 40.625rem;
   margin-right: 0;
   margin-left: 0;
   position: relative;
-  left: 0.4rem;
-  bottom: 8rem;
+  left: 1rem;
+  top: 2rem;
 }
-
-.about-title-2 {
-  text-align: left;
-  font-size: 1rem;
-}
-.about-description-2 {
-  position: relative;
-  top: 0.2rem;
-  font-size: 0.7rem;
-  text-align: left;
+.small--img {
+  width: 20.9375rem;
+  height: 25.9375rem;
+  position: absolute;
+  left: 26rem;
+  bottom: 25.1rem;
+  z-index: var(--z-tooltip);
 }
 
 .about-menu {
   position: relative;
   top: 1rem;
-  font-size: 0.7em;
+  font-size: 1rem;
 }
 .btn {
   margin: 2rem;
@@ -535,7 +538,7 @@ nav {
 }
 
 .about-icon {
-  font-size: 0.8rem;
+  font-size: 1.5rem;
   color: var(--first-color);
 }
 .about-button-2 {
@@ -543,44 +546,42 @@ nav {
   position: relative;
   top: 0.2rem;
 }
-.small--img {
-  width: 5rem;
-  position: relative;
-  left: 12rem;
-  top: 0;
-  z-index: var(--z-tooltip);
-}
 
 /*==================== STORY ====================*/
 .story {
+  width: 99.3rem;
+  height: 37.125rem;
   position: relative;
-  top: 5rem;
+  top: 2rem;
 }
 .story-data {
-  position: relative;
-  bottom: 10rem;
-  left: 0.5rem;
+  position: absolute;
+  left: 28rem;
+  bottom: 17rem;
 }
 
 .story-title {
   text-align: center;
   color: var(--first-color);
-  font-size: 1.2rem;
+  font-size: 2.25rem;
+  line-height: 2.8125rem;
 }
 
 .story-description {
   text-align: center;
   color: #fff;
-  font-size: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.75rem;
   padding-top: 1rem;
 }
 
 .story-watch a {
   position: relative;
-  left: 23rem;
-  bottom: 10rem;
+  left: 45.125rem;
+  bottom: 13rem;
   padding-top: 1rem;
-  font-size: 0.5rem;
+  font-size: 1rem;
+  line-height: 2.8125rem;
   color: #fff;
 }
 
@@ -588,10 +589,11 @@ nav {
 
 .product--description {
   width: 45rem;
-  font-size: var(--smaller-font-size);
+  font-size: 1rem;
+  line-height: 1.75rem;
   text-align: center;
   position: relative;
-  left: 2rem;
+  left: 19.4375rem;
   bottom: 3rem;
 }
 
@@ -655,35 +657,44 @@ nav {
 /*==================== TESTIMONIAL ====================*/
 .testimonial {
   text-align: center;
-  padding: 2rem;
+  width: 99.3rem;
 }
 
 .testimonial-bg {
   background-color: var(--first-color-second);
-  padding: 3rem;
+  padding: 9rem;
 }
-.title {
-  color: #fff;
-  padding-top: 0.6rem;
-}
-
+.title,
 .sub {
   color: #fff;
+  position: relative;
+  left: 0;
+  bottom: 3rem;
 }
 
+.testimonial-img {
+  width: 4rem;
+  padding-top: 4rem;
+  justify-self: center;
+}
+
+.testimonial-data {
+  padding: 2.7rem;
+}
 .testimonial-title {
-  width: 30rem;
+  width: 37.75rem;
   position: relative;
-  left: 9rem;
-  bottom: 1.4rem;
+  left: 20rem;
+  bottom: 3rem;
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 1.3125rem;
+  line-height: 2.0625rem;
   padding: 1rem;
 }
 
 .testimonial-description {
   position: relative;
-  bottom: 0.5rem;
+  bottom: 2rem;
   font-size: 0.7rem;
   color: var(--first-color);
   padding-bottom: 2rem;
@@ -693,12 +704,6 @@ nav {
   background-color: #fff;
   position: relative;
   bottom: 3rem;
-}
-
-.testimonial-img {
-  width: 4rem;
-  padding-top: 1rem;
-  justify-self: center;
 }
 
 .testimonial-dot {
@@ -716,17 +721,13 @@ nav {
 }
 /* ============= questions ============== */
 .question-container {
-  max-width: 620px;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  align-items: center;
+  max-width: 80rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .question-content {
-  background-color: var(--container-color);
   border-radius: 0.5rem;
-  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
   margin-bottom: 2rem;
   padding: 1.5rem 1.5rem 0 1.5rem;
 }
@@ -791,7 +792,7 @@ nav {
 
 /* ============= DIVIDED ============== */
 .divided {
-  padding: 2rem;
+  width: 99.3rem;
 }
 .divided-bg {
   background-color: var(--title-color);
@@ -799,10 +800,8 @@ nav {
 
 .divided-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  position: relative;
-  top: 0rem;
 }
 
 .divided-title {
@@ -831,10 +830,8 @@ nav {
 
 .newsletter-form {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  padding-left: 1rem;
-  padding-right: 2rem;
   position: relative;
   bottom: 3rem;
 }
@@ -863,11 +860,12 @@ nav {
 }
 .newsletter-button {
   position: relative;
-  right: 8rem;
+  right: 7rem;
 }
 /* ============= COPY WRITE ============== */
 .copywrite {
-  padding: 2rem;
+  width: 99.3rem;
+  height: 16.25rem;
 }
 
 .copywrite-bg {
@@ -887,41 +885,44 @@ nav {
 
 .copywrite-link {
   color: #fff;
-  font-size: 0.6rem;
+  font-size: 0.9375rem;
+  line-height: 1.125rem;
 }
 
 .copywrite-social-icon {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: var(--container-color);
 }
 
 .copywrite-copy {
-  font-size: 0.7rem;
+  font-size: 0.8125rem;
 }
 /*==================== FOOTER ====================*/
 .footer {
-  padding: 2rem;
+  padding-top: 6rem;
+  width: 99.3rem;
 }
 
 .footer-container {
-  row-gap: 2rem;
+  row-gap: 6rem;
   padding-right: 9rem;
 }
 
 .footer-bg {
-  background-color: var(--first-color);
+  background-color: var(--container-color);
   padding: 2rem 0 3rem;
 }
 
 .footer-title {
-  font-size: var(--h1-font-size);
-  font-family: var(--body-font);
+  font-size: 3rem;
 }
 
 .footer-links {
   display: flex;
   flex-direction: column;
   row-gap: 1.5rem;
+  font-size: 2.25rem;
+  text-decoration: underline;
 }
 
 .footer-hire-me {
@@ -929,11 +930,14 @@ nav {
   align-items: center;
   column-gap: 3rem;
 }
-
+.hire-me-link {
+  font-size: 2.25rem;
+  text-decoration: underline;
+}
 .footer-title,
 .footer-link,
 .hire-me-link {
-  color: #fff;
+  color: var(--text-color);
 }
 /*========== SCROLL UP ==========*/
 .scrollup {
