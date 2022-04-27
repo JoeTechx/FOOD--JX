@@ -241,7 +241,7 @@ nav {
   .links {
     height: auto;
     display: flex;
-    padding-left: 35rem;
+    padding-left: 23rem;
   }
   .links a {
     padding-left: 1rem;
@@ -256,7 +256,7 @@ nav {
   }
   .social-icons {
     display: flex;
-    padding-right: 10rem;
+    padding-right: 6rem;
   }
   .social-icons p {
     margin: 0 0.5rem;
@@ -300,7 +300,7 @@ nav {
 }
 
 .home-img {
-  width: 502px;
+  width: 31.375rem;
   order: 1;
   justify-self: center;
 }
@@ -311,7 +311,7 @@ nav {
 }
 
 .home-title {
-  font-size: 48px;
+  font-size: 3rem;
 }
 
 .home-description {
@@ -400,7 +400,6 @@ nav {
 }
 /* ======= COUNTER ======= */
 .counters {
-  /* padding: 0.7rem; */
   background-color: var(--first-color);
   padding: 1rem;
   width: 99.3rem;
@@ -662,7 +661,7 @@ nav {
 
 .testimonial-bg {
   background-color: var(--first-color-second);
-  padding: 9rem;
+  padding: 5rem;
 }
 .title,
 .sub {
@@ -687,7 +686,7 @@ nav {
   left: 20rem;
   bottom: 3rem;
   text-align: center;
-  font-size: 1.3125rem;
+  font-size: 1.2rem;
   line-height: 2.0625rem;
   padding: 1rem;
 }
@@ -898,47 +897,7 @@ nav {
   font-size: 0.8125rem;
 }
 /*==================== FOOTER ====================*/
-.footer {
-  padding-top: 6rem;
-  width: 99.3rem;
-}
 
-.footer-container {
-  row-gap: 6rem;
-  padding-right: 9rem;
-}
-
-.footer-bg {
-  background-color: var(--container-color);
-  padding: 2rem 0 3rem;
-}
-
-.footer-title {
-  font-size: 3rem;
-}
-
-.footer-links {
-  display: flex;
-  flex-direction: column;
-  row-gap: 1.5rem;
-  font-size: 2.25rem;
-  text-decoration: underline;
-}
-
-.footer-hire-me {
-  display: flex;
-  align-items: center;
-  column-gap: 3rem;
-}
-.hire-me-link {
-  font-size: 2.25rem;
-  text-decoration: underline;
-}
-.footer-title,
-.footer-link,
-.hire-me-link {
-  color: var(--text-color);
-}
 /*========== SCROLL UP ==========*/
 .scrollup {
   position: fixed;
@@ -979,527 +938,209 @@ nav {
   background-color: var(--text-color-light);
 }
 /*==================== MEDIA QUERIES ====================*/
-/* /* For large devices  */
-@media screen and (max-width: 1024px) {
-  .container {
-    margin-left: auto;
-    margin-right: auto;
-  }
+/* For large devices  */
+@media screen and (max-width: 1341px) and (min-width: 1200px) {
   body {
     margin: 0;
   }
-  .section {
-    padding: 6rem 0 2rem;
+  .container {
+    max-width: 768px;
   }
-
-  .main,
-  .footer-container {
-    padding: 0 1rem;
+  .media-container {
+    width: 85rem;
   }
-  .home-container {
-    row-gap: 5rem;
+  .links {
+    height: auto;
+    display: flex;
+    padding-left: 15rem;
   }
-  .home-content {
-    grid-template-columns: max-content 1fr 1fr;
-    padding-top: 5.5rem;
-    column-gap: 2rem;
+  .links a {
+    padding-left: 1rem;
+    margin: 0.5rem;
   }
-  .home-data {
-    grid-column: initial;
+  .links a:hover {
+    padding: 0;
+    background: transparent;
+  }
+  .social-icons {
+    display: flex;
+    padding-right: 0;
   }
   .home-img {
-    order: 1;
-    justify-self: center;
-    width: 300px;
+    width: 22rem;
   }
-  .home-social {
-    display: grid;
-    grid-template-columns: max-content;
-    row-gap: 1rem;
+  .home-data {
+    padding-left: 0.5rem;
   }
-  .home-scroll {
-    display: block;
+  .home-title {
+    font-size: 2rem;
   }
-
-  .home-scroll-button {
-    margin-left: 3rem;
-  }
-
-  .counters {
-    padding: 2rem;
-    width: 50rem;
-  }
-
   .about-1 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    padding-left: 0;
   }
-
   .about-img-1 {
-    width: 88%;
-    height: 13rem;
+    width: 29rem;
+    height: 19rem;
     position: relative;
-    left: 3rem;
-    top: 1rem;
+    left: 0;
+    top: 0;
   }
   .about-data {
-    padding: 1rem;
     position: relative;
-    right: 0.5rem;
-    top: 1rem;
+    left: 1rem;
+    top: 0.5rem;
   }
-  .about-title {
+  .about-title,
+  .about-title-2 {
     text-align: left;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: var(--font-semi-bold);
+    line-height: 2.5rem;
   }
-  .about-description {
+  .about-description,
+  .about-description-2 {
     position: relative;
-    bottom: 2rem;
-    font-size: 0.9rem;
+    top: 0.5rem;
+    font-size: 0.824rem;
+    line-height: 1.7rem;
     text-align: left;
   }
   .about-button-1 {
     font-size: 1rem;
     position: relative;
-    bottom: 3rem;
+    top: 0.8rem;
   }
+
   .about-2 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    position: relative;
-    left: 2rem;
+    padding: 0;
   }
 
   .about-food-img {
-    width: 95%;
-    height: 18rem;
+    width: 30rem;
+    height: 28rem;
     position: relative;
-    left: 0.2rem;
+    left: 1rem;
     top: 2rem;
   }
   .about-img {
-    width: 95%;
-    height: 19rem;
-    margin-right: 0;
-    margin-left: 0;
+    width: 30rem;
+    height: 28rem;
     position: relative;
-    left: 0.4rem;
-    bottom: 7.5rem;
+    left: 1rem;
+    top: 2rem;
   }
   .small--img {
-    position: relative;
-    left: 12rem;
-    top: 0;
+    width: 13rem;
+    height: 17rem;
+    position: absolute;
+    left: 21rem;
+    bottom: 17rem;
     z-index: var(--z-tooltip);
   }
   .about-data-2 {
-    padding: 1.4rem;
     position: relative;
-    right: 0.5rem;
-    top: 2rem;
-  }
-  .about-title-2 {
-    text-align: left;
-    font-size: 1.5rem;
-  }
-  .about-description-2 {
-    position: relative;
-    top: 0.2rem;
-    font-size: 0.9rem;
-    text-align: left;
+    left: 0.5rem;
+    top: 5rem;
   }
   .about-menu {
     position: relative;
     top: 1rem;
-    font-size: 0.9em;
+    font-size: 0.8rem;
+  }
+  .btn {
+    margin: 2rem;
+    margin-left: 0;
+  }
+
+  .about-list {
+    row-gap: 1.25rem;
+  }
+
+  .about-item {
+    display: flex;
+    gap: 0.35rem;
   }
 
   .about-icon {
-    font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    color: var(--first-color);
   }
   .about-button-2 {
     font-size: 1rem;
     position: relative;
     top: 0.2rem;
   }
-
-  .story {
-    position: relative;
-    top: 3rem;
-  }
-  .divided-content {
-    position: relative;
-    top: 0rem;
-  }
-  .divided-title {
-    color: var(--container-color);
-    position: relative;
-    left: 9rem;
-  }
-
-  .divided-button {
-    position: relative;
-    right: 9rem;
-    font-size: 0.9rem;
-  }
-}
-@media screen and (min-width: 800px) {
-  h1 {
-    font-size: 4rem;
-  }
-  h2 {
-    font-size: 2.5rem;
-  }
-  h3 {
-    font-size: 1.75rem;
-  }
-  h4 {
-    font-size: 1rem;
-  }
-  body {
-    font-size: 1rem;
-  }
-  h1,
-  h2,
-  h3,
-  h4 {
-    line-height: 1;
-  }
-}
-@media screen and (max-width: 799px) {
-  .home-content {
-    width: 45rem;
-  }
-  .about-1 {
-    width: 45rem;
-  }
-  .about-2 {
-    width: 45rem;
-  }
-  .story {
-    width: 50rem;
-  }
   .story-data {
-    width: 44rem;
-  }
-  .story-watch {
-    width: 44rem;
-    position: relative;
-    right: 2rem;
-  }
-  .section-title,
-  .section-subtitle {
-    position: relative;
-    left: 3rem;
-  }
-  .testimonial {
-    width: 49.4rem;
-    text-align: center;
-  }
-  .testimonial-img {
-    width: 4rem;
-    position: relative;
-    left: 0;
-  }
-  .title,
-  .sub {
-    position: relative;
-    left: 0;
-  }
-  .testimonial-title {
-    position: relative;
-    left: 6rem;
-  }
-  .question-container {
-    width: 35rem;
-    position: relative;
-    left: 2.5rem;
-  }
-  .divided-bg,
-  .copywrite-bg {
-    width: 49.4rem;
-  }
-  .divided-content {
-    width: 50rem;
-  }
-  .footer-bg {
-    width: 47.7rem;
-  }
-}
-@media screen and (max-width: 770px) {
-  .newsletter-form {
-    width: 47rem;
-  }
-}
-@media screen and (max-width: 648px) {
-  .main {
-    width: 45rem;
-  }
-  .home-content {
-    width: 45rem;
-  }
-  .home-img {
-    order: 1;
-    justify-self: center;
-    width: 350px;
-    position: relative;
-    left: 0.2rem;
-  }
-  .home-data {
-    width: 18rem;
-  }
-  .home-title {
-    font-size: var(--h1-font-size);
+    position: absolute;
+    left: 20rem;
+    bottom: 16.8rem;
   }
 
-  .home-description {
-    margin-bottom: var(--mb-2);
-  }
-
-  .about-1 {
-    width: 45rem;
-  }
-  .about-2 {
-    width: 45rem;
-  }
-  .story {
-    width: 47rem;
-  }
-  .story-data {
-    width: 44rem;
-  }
-  .story-watch {
-    width: 44rem;
+  .story-watch a {
     position: relative;
-    right: 2rem;
+    left: 38rem;
+    bottom: 7rem;
+    padding-top: 1rem;
   }
-  .section-title,
-  .section-subtitle {
+  .product--description {
     position: relative;
-    left: 3rem;
-  }
-  .testimonial {
-    width: 47rem;
-    text-align: center;
-  }
-  .testimonial-img {
-    width: 4rem;
-    position: relative;
-    left: 0;
-  }
-  .title,
-  .sub {
-    position: relative;
-    left: 3rem;
-  }
-  .testimonial-title {
-    position: relative;
-    left: 5rem;
-  }
-  .question-container {
-    width: 35rem;
-    position: relative;
-    left: 2.5rem;
-  }
-  .divided-bg {
-    width: 47rem;
-  }
-  .divided-content {
-    width: 50rem;
-  }
-  .newsletter-form {
-    width: 47rem;
-  }
-  .copywrite-bg {
-    width: 47rem;
-  }
-  .footer-bg {
-    width: 45rem;
-  }
-}
-@media screen and (max-width: 350px) {
-  .container {
-    margin-left: var(--mb-1);
-    margin-right: var(--mb-1);
-  }
-  .home-content {
-    grid-template-columns: 1fr 1fr;
-    position: relative;
-    left: 10rem;
-  }
-
-  .home-img {
-    position: relative;
-    left: 0.4rem;
-    order: -1;
-    justify-self: center;
-    width: 23rem;
-  }
-  .home-social {
-    padding: 0;
-    position: relative;
-    right: 37rem;
-    top: 0;
-  }
-  .home-scroll {
-    display: none;
-  }
-  .home-data {
-    width: 40rem;
-    font-size: 2rem;
-    text-align: left;
-  }
-  .home-title {
-    font-size: 3rem;
-  }
-  .home-btn {
-    font-size: var(--h1-font-size);
-  }
-  .counter-bg {
-    width: 50rem;
-  }
-  .about-1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    position: relative;
-    left: 5.5rem;
-  }
-
-  .about-img-1 {
-    width: 60%;
-    height: 19rem;
-    position: relative;
-    left: 3rem;
-    top: 1rem;
-  }
-  .about-data {
-    padding: 1rem;
-    position: relative;
-    right: 0.5rem;
-    top: 1rem;
-  }
-  .about-title {
-    width: 30rem;
-    text-align: left;
-    font-size: 2.5rem;
-  }
-  .about-description {
-    width: 31rem;
-    position: relative;
-    bottom: 2rem;
-    font-size: 1.8rem;
-    text-align: left;
-  }
-  .about-button-1 {
-    font-size: 2rem;
-    position: relative;
+    left: 4rem;
     bottom: 3rem;
   }
-  .about-2 {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-between;
-    position: relative;
-    left: 5.9rem;
-  }
-
-  .about-food-img,
-  .about-img {
-    width: 80%;
-    height: 20rem;
-    position: relative;
-    left: 1rem;
-    top: 0;
-  }
-
-  .small--img {
-    display: none;
-  }
-  .about-data-2 {
-    padding: 1.4rem;
-    position: relative;
-    right: 0.5rem;
-    top: 2rem;
-  }
-  .about-title-2 {
-    width: 30rem;
-    position: relative;
-    left: 1rem;
-    text-align: left;
-    font-size: 2.5rem;
-  }
-  .about-description-2 {
-    width: 35rem;
-    position: relative;
-    top: 2rem;
-    left: 1rem;
-    font-size: 1.8rem;
-    text-align: left;
-  }
-  .about-menu {
-    position: relative;
-    top: 3rem;
-    left: 1rem;
-    font-size: 1.5rem;
-  }
-
-  .about--icon {
-    font-size: 2.7rem;
-  }
-  .about-button-2 {
-    font-size: 2rem;
-    position: relative;
-    top: 2rem;
-    left: 1rem;
-  }
-  .story {
-    position: relative;
-    left: 2.5rem;
-  }
   .product-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     position: relative;
-    left: 2.5rem;
+    right: 3rem;
   }
   .product-img {
-    width: 16rem;
+    width: 19.5rem;
+    padding-left: auto;
+    padding-right: auto;
   }
-  .product-title {
-    font-size: var(--h1-font-size);
+  .testimonial-container {
+    max-width: 1000px;
   }
-  .product-description {
-    font-size: 1.1rem;
+  .testimonial-data {
+    padding: 1rem;
   }
-  .product-price,
-  .product-price-cancel {
-    font-size: 1.5rem;
-  }
-
-  .product-button {
-    display: flex;
-    align-items: center;
-  }
-
-  .testimonial,
-  .divided,
-  .copywrite,
-  .footer {
+  .testimonial-title {
     position: relative;
-    left: 3.5rem;
-  }
-  .title {
-    font-size: var(--h1-font-size);
-  }
-  .sub {
-    font-size: var(--h4-font-size);
-  }
-  .testimonial-title,
-  .testimonial-description {
-    font-size: var(--normal-font-size);
+    left: 11rem;
+    bottom: 2.5rem;
+    text-align: center;
   }
   .question-container {
+    max-width: 90rem;
     position: relative;
-    left: 7rem;
+    left: 3rem;
   }
+  .question-title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .question-text {
+    position: relative;
+    left: 2.3rem;
+  }
+  .question-btn {
+    position: relative;
+    right: 2rem;
+  }
+  .newsletter-container {
+    max-width: 90rem;
+  }
+  /* .footer {
+    background-color: var(--text-color);
+    max-width: 50rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .footer-title,
+  .footer-link,
+  .hire-me-link {
+    color: var(--container-color);
+  } */
 }
