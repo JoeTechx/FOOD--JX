@@ -670,7 +670,11 @@ nav {
   left: 0;
   bottom: 3rem;
 }
-
+.testimonial-container {
+  background-color: #fff;
+  position: relative;
+  bottom: 3rem;
+}
 .testimonial-img {
   width: 4rem;
   padding-top: 4rem;
@@ -681,28 +685,22 @@ nav {
   padding: 2.7rem;
 }
 .testimonial-title {
-  width: 37.75rem;
+  width: 31rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
   position: relative;
-  left: 20rem;
-  bottom: 3rem;
-  text-align: center;
-  font-size: 1.2rem;
-  line-height: 2.0625rem;
+  left: 23rem;
+  bottom: 2rem;
   padding: 1rem;
 }
 
 .testimonial-description {
   position: relative;
+  left: 0.3rem;
   bottom: 2rem;
   font-size: 0.7rem;
   color: var(--first-color);
   padding-bottom: 2rem;
-}
-
-.testimonial-container {
-  background-color: #fff;
-  position: relative;
-  bottom: 3rem;
 }
 
 .testimonial-dot {
@@ -897,7 +895,37 @@ nav {
   font-size: 0.8125rem;
 }
 /*==================== FOOTER ====================*/
-
+.footer {
+  padding-top: 5rem;
+}
+.footer-container {
+  display: grid;
+  gap: 3rem;
+}
+.footer-title {
+  font-weight: var(--font-semi-bold);
+  font-size: 3rem;
+  color: var(--text-color);
+}
+.footer-links {
+  display: grid;
+  gap: 1.5rem;
+  font-size: 2.25rem;
+  text-decoration: underline;
+}
+.footer-link {
+  color: var(--text-color);
+}
+.footer-hire-me {
+  display: flex;
+  align-items: center;
+}
+.hire-me-link {
+  text-decoration: underline;
+  color: var(--text-color);
+  font-size: 2.25rem;
+  margin-left: 2rem;
+}
 /*========== SCROLL UP ==========*/
 .scrollup {
   position: fixed;
@@ -939,15 +967,14 @@ nav {
 }
 /*==================== MEDIA QUERIES ====================*/
 /* For large devices  */
-@media screen and (max-width: 1341px) and (min-width: 1200px) {
-  body {
-    margin: 0;
-  }
+@media screen and (max-width: 1341px) and (min-width: 1201px) {
   .container {
-    max-width: 768px;
+    max-width: 48rem;
+    margin-left: 13rem;
+    margin-right: 12rem;
   }
   .media-container {
-    width: 85rem;
+    width: 76.7rem;
   }
   .links {
     height: auto;
@@ -1092,7 +1119,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     position: relative;
-    right: 3rem;
+    right: 5rem;
   }
   .product-img {
     width: 19.5rem;
@@ -1100,21 +1127,26 @@ nav {
     padding-right: auto;
   }
   .testimonial-container {
-    max-width: 1000px;
+    max-width: 60.5rem;
+    margin-right: 5rem;
+    margin-left: 4rem;
   }
   .testimonial-data {
     padding: 1rem;
   }
   .testimonial-title {
+    width: 32.5rem;
     position: relative;
-    left: 11rem;
+    left: 12.3rem;
     bottom: 2.5rem;
     text-align: center;
   }
   .question-container {
     max-width: 90rem;
     position: relative;
-    left: 3rem;
+    left: 9rem;
+    margin-left: -8rem;
+    margin-right: 9rem;
   }
   .question-title {
     display: flex;
@@ -1131,16 +1163,11 @@ nav {
   }
   .newsletter-container {
     max-width: 90rem;
+    margin-left: -7rem;
+    margin-right: 6rem;
+    position: relative;
+    left: 6rem;
   }
-  /* .footer {
-    background-color: var(--text-color);
-    max-width: 50rem;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  .footer-title,
-  .footer-link,
-  .hire-me-link {
-    color: var(--container-color);
-  } */
+}
+@media screen and (max-width: 1200px) {
 }
