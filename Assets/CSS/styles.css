@@ -967,9 +967,9 @@ nav {
 }
 /*==================== MEDIA QUERIES ====================*/
 /* For large devices  */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 75rem) {
   .container {
-    width: 48rem;
+    width: 68rem;
   }
   .nav-logo {
     padding-left: 1rem;
@@ -987,10 +987,10 @@ nav {
     padding-left: 1rem;
   }
   .home-title {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   .counters {
-    max-width: 75rem;
+    max-width: 74.3rem;
   }
   .about-1 {
     padding-left: 0;
@@ -1054,7 +1054,7 @@ nav {
     font-size: 1rem;
   }
   .story {
-    width: 75rem;
+    max-width: 74.3rem;
     height: 37.125rem;
     position: relative;
     top: 2rem;
@@ -1071,7 +1071,65 @@ nav {
   }
   .product--description {
     position: relative;
-    left: 2.4375rem;
+    left: 11.4375rem;
     bottom: 3rem;
   }
+  .product-img {
+    width: 20rem;
+    padding: 2rem;
+    position: relative;
+    right: 1rem;
+  }
+  .product-wrapper {
+    position: relative;
+    right: -2rem;
+  }
+  .testimonial {
+    max-width: 74.3rem;
+  }
+  .testimonial-bg {
+    padding: 4rem;
+  }
+  .testimonial-container {
+    position: relative;
+    bottom: 3rem;
+    right: 1rem;
+  }
+  .testimonial-title {
+    width: 33rem;
+    position: relative;
+    left: 15rem;
+    bottom: 4rem;
+  }
+  .testimonial-description {
+    position: relative;
+    left: -0.3rem;
+    bottom: 4rem;
+  }
+  .question-title {
+    width: 31rem;
+    position: relative;
+    right: 0;
+  }
+  .question-text {
+    position: relative;
+    right: -1rem;
+  }
+  .divided {
+    max-width: 74.3rem;
+  }
+  .newsletter-email {
+    position: relative;
+    left: 7rem;
+  }
+  .newsletter-button {
+    position: relative;
+    right: 5rem;
+  }
+  .copywrite {
+    width: 74.3rem;
+    height: 18.25rem;
+  }
+}
+@media screen and (max-width: 62rem) {
 }
