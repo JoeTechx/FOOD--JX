@@ -967,207 +967,111 @@ nav {
 }
 /*==================== MEDIA QUERIES ====================*/
 /* For large devices  */
-@media screen and (max-width: 1341px) and (min-width: 1201px) {
+@media screen and (max-width: 1200px) {
   .container {
-    max-width: 48rem;
-    margin-left: 13rem;
-    margin-right: 12rem;
+    width: 48rem;
   }
-  .media-container {
-    width: 74.5rem;
-  }
-  .links {
-    height: auto;
-    display: flex;
-    padding-left: 15rem;
-  }
-  .links a {
+  .nav-logo {
     padding-left: 1rem;
-    margin: 0.5rem;
-  }
-  .links a:hover {
-    padding: 0;
-    background: transparent;
   }
   .social-icons {
-    display: flex;
-    padding-right: 0;
+    padding-right: 1rem;
+  }
+  .links {
+    padding-left: 0;
   }
   .home-img {
     width: 22rem;
   }
   .home-data {
-    padding-left: 0.5rem;
+    padding-left: 1rem;
   }
   .home-title {
     font-size: 2rem;
+  }
+  .counters {
+    max-width: 75rem;
   }
   .about-1 {
     padding-left: 0;
   }
   .about-img-1 {
-    width: 29rem;
-    height: 19rem;
-    position: relative;
-    left: 0;
-    top: 0;
-  }
-  .about-data {
+    width: 29.8125rem;
+    height: 20.208125rem;
     position: relative;
     left: 1rem;
-    top: 0.5rem;
+    top: 2rem;
   }
-  .about-title,
-  .about-title-2 {
-    text-align: left;
-    font-size: 1.8rem;
-    font-weight: var(--font-semi-bold);
-    line-height: 2.5rem;
-  }
-  .about-description,
-  .about-description-2 {
+  .about-data {
+    width: 24rem;
+    padding-left: 0.1rem;
     position: relative;
-    top: 0.5rem;
-    font-size: 0.824rem;
-    line-height: 1.7rem;
-    text-align: left;
+    left: 3rem;
+    top: 4.5rem;
   }
+
   .about-button-1 {
     font-size: 1rem;
     position: relative;
     top: 0.8rem;
   }
-
-  .about-2 {
-    padding: 0;
+  .about-data-2 {
+    width: 27rem;
+    position: relative;
+    left: 0rem;
+    top: 7rem;
   }
-
   .about-food-img {
-    width: 30rem;
-    height: 28rem;
+    width: 29.625rem;
+    height: 31.625rem;
     position: relative;
     left: 1rem;
     top: 2rem;
   }
   .about-img {
-    width: 30rem;
-    height: 28rem;
+    width: 29.625rem;
+    height: 31.625rem;
+    margin-right: 0;
+    margin-left: 0;
     position: relative;
     left: 1rem;
     top: 2rem;
   }
   .small--img {
-    width: 13rem;
-    height: 17rem;
+    width: 14.9375rem;
+    height: 21.9375rem;
     position: absolute;
-    left: 21rem;
-    bottom: 17rem;
+    left: 19rem;
+    bottom: 18.1rem;
     z-index: var(--z-tooltip);
   }
-  .about-data-2 {
-    position: relative;
-    left: 0.5rem;
-    top: 5rem;
-  }
+
   .about-menu {
-    position: relative;
-    top: 1rem;
     font-size: 0.8rem;
-  }
-  .btn {
-    margin: 2rem;
-    margin-left: 0;
-  }
-
-  .about-list {
-    row-gap: 1.25rem;
-  }
-
-  .about-item {
-    display: flex;
-    gap: 0.35rem;
   }
 
   .about-icon {
     font-size: 1rem;
-    color: var(--first-color);
   }
-  .about-button-2 {
-    font-size: 1rem;
+  .story {
+    width: 75rem;
+    height: 37.125rem;
     position: relative;
-    top: 0.2rem;
+    top: 2rem;
   }
   .story-data {
     position: absolute;
-    left: 20rem;
-    bottom: 16.8rem;
+    left: 17rem;
+    bottom: 18rem;
   }
-
   .story-watch a {
     position: relative;
-    left: 38rem;
-    bottom: 7rem;
-    padding-top: 1rem;
+    left: 35.125rem;
+    bottom: 8rem;
   }
   .product--description {
     position: relative;
-    left: 4rem;
+    left: 2.4375rem;
     bottom: 3rem;
   }
-  .product-wrapper {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: relative;
-    right: 5rem;
-  }
-  .product-img {
-    width: 19.5rem;
-    padding-left: auto;
-    padding-right: auto;
-  }
-  .testimonial-container {
-    max-width: 60.5rem;
-    margin-right: 5rem;
-    margin-left: 4rem;
-  }
-  .testimonial-data {
-    padding: 1rem;
-  }
-  .testimonial-title {
-    width: 32.5rem;
-    position: relative;
-    left: 12.3rem;
-    bottom: 2.5rem;
-    text-align: center;
-  }
-  .question-container {
-    max-width: 90rem;
-    position: relative;
-    left: 9rem;
-    margin-left: -8rem;
-    margin-right: 9rem;
-  }
-  .question-title {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .question-text {
-    position: relative;
-    left: 2.3rem;
-  }
-  .question-btn {
-    position: relative;
-    right: 2rem;
-  }
-  .newsletter-container {
-    max-width: 90rem;
-    margin-left: -10rem;
-    margin-right: 5.988rem;
-    position: relative;
-    left: 6rem;
-  }
-}
-@media screen and (max-width: 1200px) {
 }
