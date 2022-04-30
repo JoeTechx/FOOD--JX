@@ -199,9 +199,8 @@ nav {
 }
 .links a {
   color: var(--first-color);
-  font-size: var(--smaller-font-size);
+  font-size: var(--normal-font-size);
   text-transform: capitalize;
-
   display: block;
   padding: 0.5rem 1rem;
   transition: var(--transition);
@@ -774,8 +773,6 @@ nav {
 /* ============= DIVIDED ============== */
 .divided {
   width: 99.3rem;
-}
-.divided-bg {
   background-color: var(--title-color);
 }
 
@@ -783,6 +780,8 @@ nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  position: relative;
+  bottom: 2rem;
 }
 
 .divided-title {
@@ -1283,5 +1282,139 @@ nav {
   .copywrite {
     width: 30.5rem;
     height: 18.25rem;
+  }
+}
+@media screen and (max-width: 24.375rem) {
+  .home-img {
+    width: 23rem;
+    position: relative;
+    left: 2.9rem;
+  }
+  .home-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+  }
+  .home-description {
+    text-align: center;
+  }
+  .home-btn {
+    width: 22.75rem;
+    position: relative;
+    left: 6rem;
+  }
+  .counters {
+    width: 29.9rem;
+  }
+  .about-img-1 {
+    width: 23rem;
+    height: 18.208125rem;
+    position: relative;
+    left: 2.9rem;
+  }
+  .about-title,
+  .about-title-2 {
+    text-align: center;
+  }
+  .about-description,
+  .about-description-2 {
+    text-align: center;
+  }
+  .about-food-img {
+    position: relative;
+    left: 2rem;
+    top: 24rem;
+  }
+  .about-img {
+    position: relative;
+    left: 2rem;
+    top: 0rem;
+  }
+  .about-btn {
+    position: relative;
+    left: 7rem;
+  }
+  .btn {
+    position: relative;
+    left: 10rem;
+  }
+
+  .about-data-2 {
+    left: 1rem;
+  }
+  .story {
+    max-width: 29.5rem;
+    height: 25.125rem;
+  }
+  .product--description {
+    width: 24rem;
+    left: 0.8375rem;
+  }
+  .product-wrapper {
+    flex-direction: column;
+    align-items: center;
+    right: 3rem;
+  }
+  .testimonial {
+    width: 29.9rem;
+  }
+  .title,
+  .sub {
+    left: -0.7rem;
+  }
+  .testimonial--img {
+    padding-right: 1rem;
+  }
+  .testimonial-container {
+    width: 23rem;
+    left: -0.7rem;
+  }
+  .testimonial--img {
+    position: relative;
+    left: -0.7rem;
+  }
+  .testimonial-title {
+    width: 21rem;
+    left: -1.7rem;
+  }
+  .testimonial-description {
+    left: -1.7rem;
+  }
+  .question-container {
+    padding-left: 2rem;
+  }
+  .question-content {
+    width: 25rem;
+    padding: 1.5rem 0.5rem 0 -0.5rem;
+  }
+  .question-title {
+    width: 20rem;
+    right: 0.5rem;
+  }
+  .question-text {
+    width: 20rem;
+    right: 0;
+  }
+  .question-btn {
+    right: -1.4rem;
+  }
+  .divided {
+    width: 29.9rem;
+  }
+  .divided-content {
+    width: 25rem;
+    padding-bottom: 2rem;
+  }
+  .divided-button {
+    padding-top: 1rem;
+    padding-left: 6rem;
+  }
+  .newsletter-form {
+    padding-top: 3rem;
+    flex-direction: column;
+  }
+  .btn {
+    position: relative;
+    left: 1rem;
   }
 }
