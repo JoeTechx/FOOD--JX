@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 /* VARIABLES CSS */
 :root {
   --header-height: 3rem;
@@ -22,8 +22,8 @@
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
   /* FONT And TYPOGRAPHY */
-  --body-font-sm: "Roboto", sans-serif;
-  --body-font-lg: "Quicksand", sans-serif;
+  --body-font-sm: 'Roboto', sans-serif;
+  --body-font-lg: 'Quicksand', sans-serif;
 
   /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ...*/
   --big-font-size: 2rem;
@@ -1086,17 +1086,19 @@ nav {
     max-width: 30rem;
   }
   .home-content {
+    width: 22rem;
     display: block;
     justify-content: center;
     align-items: center;
   }
   .home-img {
-    width: 26rem;
-    padding-left: 1rem;
+    width: 20rem;
+    padding-left: 0;
   }
   .home-title {
-    width: 29rem;
-    font-size: 2.5rem;
+    width: 22rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
     font-weight: 800;
   }
   .counters {
@@ -1122,13 +1124,21 @@ nav {
     letter-spacing: 0.15rem;
     text-align: center;
   }
+  .about {
+    width: 30rem;
+  }
   .about-1,
   .about-2 {
+    width: 22rem;
     display: block;
   }
   .about-img-1 {
-    width: 23rem;
-    height: 18.208125rem;
+    width: 18rem;
+    height: 15.208125rem;
+  }
+  .about-data {
+    width: 20rem;
+    left: 1rem;
   }
   .about-description,
   .about-description-2 {
@@ -1136,7 +1146,7 @@ nav {
   }
   .about-food-img {
     width: 23.625rem;
-    height: 44.625rem;
+    height: 49.625rem;
     margin-right: 0;
     margin-left: 0;
     position: relative;
@@ -1144,19 +1154,21 @@ nav {
     top: 24rem;
   }
   .about-img {
-    width: 23.625rem;
-    height: 26.625rem;
+    width: 19.625rem;
+    height: 21.625rem;
     margin-right: 0;
     margin-left: 0;
     position: relative;
     left: 0rem;
-    top: 0rem;
+    top: 10rem;
   }
   .small--img {
     display: none;
   }
   .about-data-2 {
-    left: 3rem;
+    width: 20rem;
+    left: 1rem;
+    top: 12rem;
   }
   .story {
     max-width: 30.5rem;
@@ -1189,6 +1201,9 @@ nav {
     bottom: 5rem;
     font-size: 0.7rem;
   }
+  .explore-food {
+    width: 30rem;
+  }
   .product--description {
     width: 28rem;
     left: 1.4375rem;
@@ -1215,6 +1230,7 @@ nav {
     text-align: center;
   }
   .product-price {
+    width: 8rem;
     left: 8.6rem;
   }
   .product-button {
@@ -1237,8 +1253,11 @@ nav {
     width: 21rem;
     left: 0;
   }
+  .question {
+    width: 30rem;
+  }
   .question-container {
-    width: 29rem;
+    width: 23rem;
     display: block;
   }
   .question-content {
@@ -1248,14 +1267,15 @@ nav {
     margin-bottom: 2rem;
   }
   .question-title {
-    width: 33rem;
+    width: 20rem;
     right: 22px;
   }
   .question-text {
+    width: 19rem;
     right: 1rem;
   }
   .question-btn {
-    right: 4.6rem;
+    right: 1rem;
   }
   .divided {
     width: 30.5rem;
@@ -1280,7 +1300,7 @@ nav {
   }
   .copywrite {
     width: 30.5rem;
-    height: 18.25rem;
+    height: 15.25rem;
   }
 }
 @media screen and (max-width: 24.375rem) {
