@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 /* VARIABLES CSS */
 :root {
@@ -1304,8 +1304,17 @@ nav {
   }
 }
 @media screen and (max-width: 24.375rem) {
+  html{
+    max-width:20rem;
+  }
+  .main{
+    max-width:20rem;
+  }
   .container {
     width: 20rem;
+  }
+  .home{
+    width: 23rem;
   }
   .home-content {
     width: 330px;
@@ -1325,18 +1334,18 @@ nav {
     left: 4rem;
     font-size: 2rem;
     font-weight: 800;
-    text-align: center;
+    text-align: left;
   }
   .home-description {
     width: 20rem;
     position: relative;
     left: 4rem;
-    text-align: center;
+    text-align: left;
   }
   .home-btn {
     width: 17.75rem;
     position: relative;
-    left: 6rem;
+    left: 4rem;
   }
   .counters {
     width: 23.8rem;
@@ -1344,9 +1353,12 @@ nav {
   .counter-number {
     padding-left: 8rem;
   }
+  .about{
+    width: 24rem;
+  }
   .about-img-1 {
-    width: 20rem;
-    height: 18.208125rem;
+    width: 18rem;
+    height: 15.208125rem;
     position: relative;
     left: 0;
     top: 0;
@@ -1365,37 +1377,34 @@ nav {
     width: 19rem;
     font-size: 1.8rem;
     font-weight: 800;
-    text-align: center;
+    text-align: left;
   }
   .about-description,
   .about-description-2 {
     width: 20rem;
     font-size: 1rem;
     font-weight: 400;
-    text-align: center;
-    text-align: center;
+    text-align: left;
+    
   }
   .about-food-img {
     width: 20.625rem;
-    height: 45.625rem;
+    height: 49.625rem;
     position: relative;
     left: -2rem;
     top: 25rem;
   }
   .about-img {
-    width: 20.625rem;
-    height: 24.625rem;
+    width: 17.625rem;
+    height: 20.625rem;
     position: relative;
     left: 2rem;
-    top: 3rem;
+    top: 8rem;
   }
-  .about-btn {
-    position: relative;
-    left: 7rem;
-  }
+ 
   .btn {
     position: relative;
-    left: 6rem;
+    left: -0.2rem;
   }
 
   .about-data-2 {
@@ -1419,14 +1428,19 @@ nav {
   }
   .story-description {
     width: 18rem;
-    left: 1.5rem;
     font-size: 0.6rem;
     line-height: 0.8rem;
   }
   .story-watch a {
-    left: 9.55rem;
-    bottom: 9rem;
-    font-size: 0.7rem;
+    left: 9.8rem;
+    bottom: 5rem;
+    font-size: 0.5rem;
+  }
+  .story-img{
+    height: 13rem;
+  }
+  .explore-food{
+    width: 24rem;
   }
   .product--description {
     width: 20rem;
@@ -1446,7 +1460,7 @@ nav {
     left: 0.8rem;
   }
   .product-price {
-    width: 13.9rem;
+    width: 10.9rem;
     left: 7.2rem;
   }
   .product-button {
@@ -1478,6 +1492,9 @@ nav {
   .testimonial-description {
     left: -1.9rem;
   }
+  .question{
+    width: 24rem;
+  }
   .question-container {
     padding-left: 0rem;
   }
@@ -1505,6 +1522,9 @@ nav {
   .divided-button {
     padding-top: 2rem;
     padding-left: 5rem;
+  }
+  .newsletter{
+    width: 24rem;
   }
   .newsletter-form {
     padding-top: 3rem;
